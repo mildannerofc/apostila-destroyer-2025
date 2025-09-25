@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila Destroyer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon"
+        href="https://imgs.search.brave.com/ewBOsudyEhHzqASvoT9Jm5CNNjpIeQGYYMTOGIdXGJk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdm/cmUuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9ib29rLTQ5LTIy/N3gzMDAucG5n"
+        type="imagex/png">
+    <link rel="stylesheet" href="src/css/styles.css">
+        <meta property="og:title" content="Apostilas CMSP - Apostilas com Respostas">
+        <meta property="og:description" content="Acesse conteúdo de qualidade, organize seus estudos e acompanhe seu progresso de forma inteligente. Aqui no Apostilas-CMSP você tem todas as apostilas respondidas, que garante que você termina sua apostila em um mês!">
+        <meta property="og:url" content="https://apostilas-cmsp.vercel.app">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:image" content="https://i.ibb.co/CFnbPwm/Apostilas-CMSP.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Apostilas CMSP - Apostilas com Respostas">
+        <meta name="twitter:description" content="Acesse conteúdo de qualidade, organize seus estudos e acompanhe seu progresso de forma inteligente. Aqui no Apostilas-CMSP você tem todas as apostilas respondidas, que garante que você termina sua apostila em um mês!">
+        <meta name="twitter:image" content="https://i.ibb.co/CFnbPwm/Apostilas-CMSP.png">
+</head>
+
+<body data-theme="dark">
+    <div id="mainApp" class="main-app active">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-left">
+                    <button id="sidebarToggle" class="sidebar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <a href="#" class="logo">
+                        <i class="fas fa-book"></i>
+                        <span>Apostila Destroyer</span>
+                    </a>
+                </div>
+
+                <div class="nav-right">
+                    <button id="themeToggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sidebar -->
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <i class="fas fa-book"></i>
+                    <span>Menu</span>
+                </div>
+            </div>
+
+            <div class="sidebar-content">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-section-title">Principal</h3>
+                    <ul class="sidebar-menu">
+                        <li class="sidebar-item active">
+                            <a href="#home" class="sidebar-link" data-page="home">
+                                <i class="fas fa-home"></i>
+                                <span>Início</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#apostilas" class="sidebar-link" data-page="apostilas">
+                                <i class="fas fa-book-open"></i>
+                                <span>Apostilas</span>
+                                <span class="sidebar-badge">46</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#creditos" class="sidebar-link" data-page="creditos">
+                                <i class="fas fa-heart"></i>
+                                <span>Créditos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main id="mainContent" class="main-content">
+            <!-- Home Page -->
+            <div id="homePage" class="page active">
+                <section class="hero">
+                    <div class="hero-background">
+                        <div class="hero-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="hero-content">
+                            <a href="https://discord.gg/nAdEXj5Zqu">
+                                <div class="hero-badge">
+                                    <i class="fab fa-discord"></i>
+                                    <span>Platform Destroyer</span>
+                                </div>
+                            </a>
+                            <h1 class="hero-title">
+                                As melhores Apostilas<br>
+                                para o seu aprendizado
+                            </h1>
+                            <p class="hero-subtitle">
+                                Acesse conteúdo de qualidade, organize seus estudos e acompanhe seu progresso de forma
+                                inteligente.
+                            </p>
+                            <div class="hero-actions">
+                                <a href="#apostilas" class="btn btn-primary btn-large" data-page="apostilas">
+                                    <span>Explorar Apostilas</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+								<!--
+                                <a href="#demonstracao" class="btn btn-secondary btn-large" data-page="demonstracao">
+                                    <i class="fas fa-play"></i>
+                                    <span>Ver Demonstração</span>
+                                </a>
+								!-->
+                            </div>
+                            <div class="hero-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number" data-target="46">0</span>
+                                    <span class="stat-label">Apostilas</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number" data-target="22300">0</span>
+                                    <span class="stat-label">Satisfeitos!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="features">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="section-title">Por que escolher a Apostila Destroyer?</h2>
+                            <p class="section-subtitle">
+                                Um lugar completo com oque você precisa.
+                            </p>
+                        </div>
+
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-download"></i>
+                                </div>
+                                <h3 class="feature-title">Uso Fácil</h3>
+                                <p class="feature-description">
+                                    Veja todas as apostilas encontradas pela Platform Destroyer!
+                                </p>
+                            </div>
+
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <h3 class="feature-title">Responsivo</h3>
+                                <p class="feature-description">
+                                    Site completamente compatível com celular e computador!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="apostilasPage" class="page">
+                <section class="apostilas-section">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="section-title">Apostilas por Série</h2>
+                            <p class="section-subtitle">Conteúdo organizado por ano escolar</p>
+                        </div>
+
+                        <div class="grade-tabs">
+                            <button class="tab-btn active" data-tab="ensino-fundamental">Ensino Fundamental</button>
+                            <button class="tab-btn" data-tab="ensino-medio">Ensino Médio</button>
+                        </div>
+
+                        <div id="ensino-fundamental" class="tab-content active">
+                            <!-- Conteúdo será carregado dinamicamente -->
+                        </div>
+
+                        <div id="ensino-medio" class="tab-content">
+                            <!-- Conteúdo será carregado dinamicamente -->
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="stats-section">
+                    <div class="container">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-number" data-target="58">0</span>
+                                    <span class="stat-label">Apostilas Disponíveis</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-download"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-number" data-target="22300">0</span>
+                                    <span class="stat-label">Pessoas Satisfeitas!</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-number" data-target="98">0</span>
+                                    <span class="stat-label">Porcentagem de Satisfação</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="creditosPage" class="page">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Créditos</h1>
+                        <p>Contribuidores do projeto Apostila Destroyer :D</p>
+                    </div>
+                    <div class="empty-state">
+                        <i class="fas fa-heart"></i>
+                        <h3>Contribuidores:</h3>
+                        <p>Criador original: xeonno e y4fw</p>
+                        <p>Frontend: xeonno & y4fw</p>
+                        <p>Animações: y4fw</p>
+                        <p>Apostilas: y4fw e crimsonstrauss</p>
+                        <p>Api: y4fw</p>
+                        <p>agradecimentos nao especiais e sim odiais: thiago o criador (nos de pesames)</p>
+                        <p>ESSA PÁGINA FOI ARQUIVADA PARA USO PRÓPRIO. NÃO DISTRIBUA NADA ALÉM DISSO.</p>
+                        <a href="https://www.youtube.com/watch?v=OLHE_O_PERFIL_DO_TECNIC">Enigma?</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="demonstracaoPage" class="page">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Demonstração</h1>
+                        <p>Demonstração do projeto Apostila Destroyer :D</p>
+                    </div>
+                    <div class="video-wrapper">
+                        <video controls>
+                            <source src="src/demo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="matematicaPage" class="page">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Matemática</h1>
+                        <p>Apostilas de Matemática para todos os níveis</p>
+                    </div>
+                    <div class="empty-state">
+                        <i class="fas fa-calculator"></i>
+                        <h3>Apostilas de Matemática</h3>
+                        <p>Em breve, conteúdo específico de matemática!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fisicaPage" class="page">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Física</h1>
+                        <p>Apostilas de Física para todos os níveis</p>
+                    </div>
+                    <div class="empty-state">
+                        <i class="fas fa-atom"></i>
+                        <h3>Apostilas de Física</h3>
+                        <p>Em breve, conteúdo específico de física!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Overlay for mobile sidebar -->
+            <div id="overlay" class="overlay"></div>
+
+            <!-- Modal de Doação -->
+            <div id="donationModal" class="donation-modal">
+                <div class="donation-modal-content">
+                    <button class="donation-close" id="closeDonationModal">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <div class="donation-header">
+                        <h2>💝 Apoie o Apostila Destroyer!</h2>
+                        <p>Gosta de como é simples responder as suas apostilas escolares? Nos ajude com qualquer valor!
+                        </p>
+                    </div>
+
+                    <div class="donation-body">
+                        <div class="donation-info">
+                            <h3>Apostilas CMSP</h3>
+                            <p>Website feito por y4fw e xeonno :D</p>
+                        </div>
+
+                        <a href="https://pixgg.com/y4fw" target="_blank" class="donation-btn">
+                            <i class="fas fa-heart"></i>
+                            <span>Apoiar com Doação</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+    <script src="src/script/script.js"></script>
+</body>
+</html>
