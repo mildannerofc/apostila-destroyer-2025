@@ -1,7 +1,7 @@
 # Apostila Destroyer
 Página arquivada feita para visualizar apostilas.
 # Créditos
-* Mildanner - Extraiu a página e copiou domínios que estão idêntico ao site e arquivos
+* Mildanner - Extraiu a página e copiou domínios que estão idêntico ao site e arquivos (Converteu para local).
 ## Navegador usado
 * Google Chrome como sempre foi usado para extrair páginas.
 ## Contribuidores
