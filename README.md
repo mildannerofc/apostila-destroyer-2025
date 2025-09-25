@@ -14,3 +14,5 @@ Página arquivada feita para visualizar apostilas.
 * agradecimentos nao especiais e sim odiais - thiago o criador (nos de pesames)
 
 Se o Governo (Pode ser qualquer um que não ou seja o Estado de São Paulo) bloquear ou descobrir que esse repositório existe, eu excluo o repositório e eu juro...
+
+Domínio original: https://apostilas-cmsp.vercel.app/
