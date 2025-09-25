@@ -3,7 +3,7 @@ Página arquivada feita para visualizar apostilas.
 # Créditos
 * Mildanner - Extraiu a página e copiou domínios que estão idêntico ao site e arquivos
 ## Navegador usado
-Google Chrome
+Google Chrome como sempre foi usado para extrair páginas.
 ## Contribuidores
 * Criador original - xeonno e y4fw
 * Frontend - xeonno & y4fw
