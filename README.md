@@ -12,3 +12,5 @@ Página arquivada feita para visualizar apostilas.
 * Api - y4fw
 
 * agradecimentos nao especiais e sim odiais - thiago o criador (nos de pesames)
+
+Se o Governo bloquear ou descobrir que esse repositório existe, eu excluo o repositório e eu juro...
